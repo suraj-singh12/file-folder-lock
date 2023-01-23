@@ -14,7 +14,9 @@ Requirements:
 
 Procedure: 
 1. Launch -> Two options : Lock / Unlock 
+
     a. Lock -> show all unlocked things -> ask item number to lock -> lock and hide on input with a confirmation -> generate encryption key! -> back to home page / exit()
+
     b. Unlock -> show all locked up things -> ask item number -> ask decryption key on item select -> match with database -> correct ! -> unlock and unhide
              -> wrong ! -> prompt and ask again!
                             exit on 3 wrong attempts
