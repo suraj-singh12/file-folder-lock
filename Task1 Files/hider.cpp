@@ -3,10 +3,12 @@ using namespace std;
 
 int main()
 {
-    // system("dir > directoryFile.txt");
+    system("dir /b > directoryFile.txt");
 
-    system("echo > file.txt");
-    system("attrib +h +s file.txt"); // satisfies the required need, but directly calling the system
+    // system("echo > file.txt");
+    // system("attrib +h +s file.txt"); // satisfies the required need, but directly calling the system
+
+    
     return 0;
 }
 
