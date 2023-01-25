@@ -1,5 +1,16 @@
 # file-folder-lock
 
+Requirement: 
+
+1. GCC version >= 9.0
+
+2. For windows get it [here](https://ftp.halifax.rwth-aachen.de/osdn/mingw/68260/mingw-get-setup.exe)
+
+Compile using c++17:
+```c++
+g++ fileName.cpp -std=c++17
+```
+
 Features: 
 1. Hides file(s) / folder(s) in current directory
 2. Creates encryption key for each folder on locking 
